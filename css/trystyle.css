@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    transition: 0.6s ease;
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 10px 15px;
+   
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    border:1px solid black;
+    border-radius: 30px;
+
+}
+ul{
+    display: flex;
+    transition: 0.8s ease;
+
+}
+li{
+    padding: 25px 15px;
+    list-style: none;
+    margin-top: 5px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: white;
+    color: black;
+}
+.firstsection{
+    height: 660px;
+   padding: 0px 80px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+}
+.firstsection ::before{
+    content: "";
+    background: url('../images/tra1.jpg') no-repeat center center/cover;
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 660px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+.btn{
+    padding: 5px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 3px;
+    cursor: pointer;
+    background:black;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.secondsection{
+    margin: 30px 30px;
+    display: grid;
+    grid-template-columns:   repeat(auto-fit, minmax(400px, 1fr ));
+    grid-gap: 30px;
+    grid-row-gap:20px;
+     
+    
+}
+.heading h1 {
+            text-align: center;
+            padding: 20px 30px;
+
+}
+.line{
+    height: 3px;
+    width: 40px;
+    background-color: green;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.first-sub-s{
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    background-color: rgb(240, 239, 239);
+    box-shadow: 2px 2px 3px black;
+
+}
+.first-sub-s a{
+    font-weight: bolder;
+}
+
+}
+.secondsection img{
+    height: 100%;
+    width: 50%;
+    display: block;
+}
+.first-sub-s h1{
+    margin: 10px;
+    font-size: 20px;
+
+}
+.first-sub-s p{
+    margin: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+.try{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  /*  margin: 10px 20px; */
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    height: 800px;
+    
+}
+.container h2{
+    text-decoration: underline;
+}
+
+.container img {
+    border-radius: 20px;
+    margin: auto;
+}
+.forimg{
+    width: 50%;
+    
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+.third p{
+    padding: 20px 20px;
+    text-align: justify;
+}
+.course{
+    width: 400px;
+}
+.company {
+  
+    display: flex;
+    margin-top:30px ;
+}
+.company img{
+    width: 100px;
+    height: 100px;
+}
+.container2{
+    width: 100%;
+  
+    display: flex; 
+   text-align: justify;
+   height: 400px;
+}
+.container2 p{
+    margin: 15px;
+}
+.container2 img{
+    width: 50%;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 380px;
+}
+.container3{
+    width: 100%;
+    display: flex; 
+   text-align: justify;
+   height: 300px;
+   align-items: center;
+}
+.container3 p{
+
+    margin: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.contact input{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 500px;
+   
+}
+.contact textarea{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 500px;
+   
+}
+.contact button{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 200px;
+}
+.contact button:hover{
+    border-color: black;
+}
+
+
+footer{
+    height: 200px;
+    background-color: rgb(41, 39, 39);
+    
+}
+.footcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.footcon h3{
+color: white;
+margin-bottom: 10px;
+}
+.footcon p{
+color :rgb(165, 165, 165);
+
+}
+
+.hamburger{
+    width: 43px;
+    height: 30px;
+    border: 1px solid rgb(211, 210, 210);
+    background-color: rgb(211, 210, 210);
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    padding-top :5px; 
+    display: none;
+   
+}
+.line2{
+    width: 30px;
+    height: 2px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:black;
+   
+
+    
+}
+
+
+   
+ 
+
